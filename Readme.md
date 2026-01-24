@@ -148,15 +148,6 @@ This project follows core programming principles:
 	•	High-performance computing
 
 “Every product, every app, every innovation begins with code.”
-
-⸻
-
-👤 Leadership
-
-Topic Lead: Kartik Chilkoti
-
-“True leadership builds thinkers, not just coders.”
-
 ⸻
 
 🙏 Special Thanks
