@@ -4,7 +4,7 @@ This is my personal fork of the **Programming Languages Knowledge Hub** under th
 
 I contribute **learning-focused, concept-first content** that helps learners understand how programming languages work internally - beyond just syntax.
 
-> “Languages change — fundamentals stay.”
+> “Languages change - fundamentals stay.”
 
 ---
 
