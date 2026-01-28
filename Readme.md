@@ -61,5 +61,3 @@ This repository exists to:
 ⭐ If this content helps you learn, feel free to explore and learn along.
 
 
-## 🗂 Content Structure
-
