@@ -1,84 +1,65 @@
-💻 Programming Languages Knowledge Hub
+# 💻 Programming Languages Knowledge Hub — SCP’26
 
-Smartly Creators Program
+This is my personal fork of the **Programming Languages Knowledge Hub** under the **Smartly Creators Program (SCP’26)**.
 
-This repository is a content-based Programming Languages knowledge hub for the Smartly Creators Program.
-
-Creators contribute clear, structured explanations of programming languages and core concepts — no full applications, no project builds, only learning-focused content.
+I contribute **learning-focused, concept-first content** that helps learners understand how programming languages work internally — beyond just syntax.
 
 > “Languages change — fundamentals stay.”
 
 ---
 
-🎯 Purpose
+## 👋 About Me
 
-Simplify programming fundamentals
+I’m **Kungumapriyaa**, a Computer Science student and **SCP’26 contributor** with a strong interest in:
 
-Explain how different languages work conceptually
+- Competitive Programming
+- Interview-oriented problem solving
+- Programming language fundamentals & internals
 
-Help learners build strong coding foundations
-
-Grow by learning through teaching
+This fork reflects my learning journey — **learning by teaching**.
 
 ---
 
-📚 What to Contribute
+## 🧠 What I Contribute Here
 
-One specific programming language topic
+- Clear explanations of **programming language concepts**
+- Beginner-friendly breakdowns with strong intuition
+- Markdown-based content (no projects, no applications)
+- Topics that strengthen **core CS foundations**
 
-Written in Markdown (.md)
+---
 
-Concept-first, beginner-friendly, technically correct
+## 📚 Areas I Focus On
 
-
-Topics include:
-
-Language fundamentals (syntax & concepts)
-
-OOP & functional concepts
-
-Memory & execution basics
-
-Language comparisons
-
-Best practices & patterns
-
-Language-specific features
+- Language fundamentals (syntax + concepts)
+- Object-Oriented & Functional concepts
+- Memory models & execution flow
+- Language-specific features
+- Comparisons between languages
+- Best practices & common patterns
 
 
 ---
 
-🗂 Structure
+## 💡 Why This Fork Exists
 
-Programming-Languages/
-├── C-Cpp/
-├── Java/
-├── Python/
-├── JavaScript/
-├── Go-Rust/
-├── Language-Concepts/
-└── Resources/
-
+This repository exists to:
+- Strengthen my understanding of programming languages
+- Create simple explanations for complex ideas
+- Build a strong foundation for interviews and system thinking
+- Share quality learning material with others
 
 ---
 
-✍️ Guidelines
+## 🎯 Personal Goal
 
-✔ Content only (no projects)
-✔ Clear explanations with intuition
-✔ One topic per file
-
+> Master core programming concepts that remain valuable  
+> **across languages, interviews, and real-world systems.**
 
 ---
 
-🚀 How to Contribute
-
-Fork → Add your .md → Open PR
+⭐ If this content helps you learn, feel free to explore and learn along.
 
 
----
-
-⭐ Star the repo • ✍️ Share knowledge • 🤝 Learn together
-
----
+## 🗂 Content Structure
 
