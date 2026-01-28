@@ -1,8 +1,8 @@
-# 💻 Programming Languages Knowledge Hub — SCP’26
+# 💻 Programming Languages Knowledge Hub - SCP’26
 
 This is my personal fork of the **Programming Languages Knowledge Hub** under the **Smartly Creators Program (SCP’26)**.
 
-I contribute **learning-focused, concept-first content** that helps learners understand how programming languages work internally — beyond just syntax.
+I contribute **learning-focused, concept-first content** that helps learners understand how programming languages work internally - beyond just syntax.
 
 > “Languages change — fundamentals stay.”
 
@@ -16,7 +16,7 @@ I’m **Kungumapriyaa**, a Computer Science student and **SCP’26 contributor**
 - Interview-oriented problem solving
 - Programming language fundamentals & internals
 
-This fork reflects my learning journey — **learning by teaching**.
+This fork reflects my learning journey - **learning by teaching**.
 
 ---
 
