@@ -1,0 +1,26 @@
+What is a Pointer to Pointer (Double Pointer)
+In C programming, pointers can store the address of other pointers too! Such pointers are called pointers to pointers or double pointers.
+They are incredibly helpful in certain situations, such as when you need to modify the addresses stored in a pointer within a function.
+
+Syntax of Double Pointer
+type **ptr_name;
+
+Why Do We Need Double Pointers?
+#include<stdio.h;
+int x = 10;
+void changePointer(int **pp)
+{
+*pp = &x;
+}
+int main()
+{
+int *p = NULL;
+changePointer(&p);
+if(p==NULL){
+printf("Not Changed");
+}
+else{
+printf("%d" , *p);
+return 0;
+}
+
