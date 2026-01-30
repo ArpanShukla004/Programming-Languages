@@ -11,7 +11,8 @@ Once you’ve written your source code, you must save it with a .c extension. Sa
 Before your program can become something the computer can run, a helper program called the preprocessor steps in. Its job is to handle special instructions in the code called preprocessor directives
 -File Expansion (#include): If you use a function like printf, your code doesn't actually know how to talk to the screen yet. The preprocessor finds the header file (like stdio.h) and literally copies its contents into your source file so the compiler has the necessary definitions.
 -Constant Substitution (#define): If you’ve defined a value like PI as 3.14, the preprocessor goes through your entire file and swaps every instance of that word with the actual number. This makes the code easier to maintain since you only have to change the value in one place.
-   Note: # (hash, not hashtag) tells the system to process the preprocessor instructions (include, define) before compilation.
+
+Note: # (hash, not hashtag) tells the system to process the preprocessor instructions (include, define) before compilation.
 
 ## Phase 3: Compiling
 The compiler’s job  is to translate your C instructions into machine language (object code). This is a binary format consisting of 1s and 0s that a specific CPU architecture can interpret.
