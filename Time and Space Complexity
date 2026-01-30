@@ -1,0 +1,54 @@
+### Some basic terms in time and space complexity
+Time => How much time your program takes
+Space complexity => How much extra space your algorithm takes.
+Trade off=> Faster algorithm often uses more memory. Memory efficient algorithm may run slower
+General rule=> More space -> Faster Execution . Less Space -> Slower excection
+**Speed=>**How fast performace grows an input size increases . How performance scales when data becomes large .
+
+**Time Complexity =>. Means Execution Steps **
+
+**Space Complexity => Means Extra Memory Used **
+
+Best , Worst and Average Case
+Best Case
+
+Algorithm work as fast as possible
+Happens only for ideal case
+**Worst Case **
+
+Algorithm work as slow as possible
+Cannot get worse than this
+This is what interview focus on
+Average Case
+
+Performace on typical inputs
+Harder to calculate
+Often close to real world behaviour
+Function Plays a important role in time and space complexity
+A function is like a machine . It takes an input and produces an output
+A function grows faster if its output increases more rapidly
+Faster growth => Worse Scalability
+n^2 = Grows faster
+n^3 = Grow much faster
+
+**What does Asymptotic Means **
+**Asymptotic Behaviour **
+How does this algorithm behave in the long run
+What matters when n is huge
+
+Why do we care about large n
+In real system ,
+Small inputs don't stress the system
+Large inputs decide - **Performance , Scalability , Feasibility **
+Asymptotic analysis ignores constants and lower - order terms and focuses on the dominant growth term as n -> infinity
+
+**Analyzing how an algorithm behaves as the input size grows very large , ignoring constants and small details **
+
+**Analysis Tools **
+When we analyze algorithm we ask:
+How does the running time grow when input size increses?
+We don't care about -> exact seconds , Exact number of instructions
+
+**We care about only -> Growth pattern **
+
+In next article we will see asymptotic growth tool
