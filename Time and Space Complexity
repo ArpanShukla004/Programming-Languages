@@ -1,4 +1,5 @@
 ### Some basic terms in time and space complexity
+
 Time => How much time your program takes
 Space complexity => How much extra space your algorithm takes.
 Trade off=> Faster algorithm often uses more memory. Memory efficient algorithm may run slower
@@ -10,20 +11,28 @@ General rule=> More space -> Faster Execution . Less Space -> Slower excection
 **Space Complexity => Means Extra Memory Used **
 
 Best , Worst and Average Case
-Best Case
 
+Best Case
 Algorithm work as fast as possible
 Happens only for ideal case
+
+
+
 **Worst Case **
 
 Algorithm work as slow as possible
 Cannot get worse than this
 This is what interview focus on
-Average Case
 
+
+
+
+**Average Case**
 Performace on typical inputs
 Harder to calculate
 Often close to real world behaviour
+
+
 Function Plays a important role in time and space complexity
 A function is like a machine . It takes an input and produces an output
 A function grows faster if its output increases more rapidly
@@ -31,10 +40,17 @@ Faster growth => Worse Scalability
 n^2 = Grows faster
 n^3 = Grow much faster
 
+
+
+
+
 **What does Asymptotic Means **
 **Asymptotic Behaviour **
 How does this algorithm behave in the long run
 What matters when n is huge
+
+
+
 
 Why do we care about large n
 In real system ,
@@ -51,4 +67,34 @@ We don't care about -> exact seconds , Exact number of instructions
 
 **We care about only -> Growth pattern **
 
-In next article we will see asymptotic growth tool
+
+
+
+
+
+
+
+Our first asympotic growth tool (theta)O
+Exits because exact formulas hide growth patterns behind consists and lower order terms and asymptotic just says the growth is this.. intution .. we need precision and aggrement 
+
+Theta means - > Growth at the same rate as
+
+If for large n ,
+    lower bound <= function(n) <= upper bound 
+
+and both bounds are constants multiples at the same function .
+then function has the same growth.
+
+A function f(n) belongs to O(g(n)) if:
+     0<=c1.g(n) <= f(n) <= c2g(n) for all n>= number 
+
+-c1,c2 are positive number constants 
+-number is thersold value 
+-g(n) is the refernece growth function 
+
+
+Constants time example O(1)
+If an algorithm always take the same time 
+f(n) = 7
+Does not depend on size of n 
+f(n) = O(1)
