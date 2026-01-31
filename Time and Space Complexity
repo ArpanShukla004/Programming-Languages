@@ -98,3 +98,5 @@ If an algorithm always take the same time
 f(n) = 7
 Does not depend on size of n 
 f(n) = O(1)
+
+
