@@ -1,0 +1,48 @@
+    class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+
+        vector<vector<int>>ans;
+        sort(intervals.begin(), intervals.end());
+
+        int one = intervals[0][0];
+        int two = intervals[0][1];
+
+        for(int i=1; i<intervals.size(); i++)
+        {
+            if(intervals[i][0] <= two)
+            {
+                two = max(two, intervals[i][1]);
+            }
+            else
+            {
+                ans.push_back({one,two});
+                one = intervals[i][0];
+                two = intervals[i][1];
+            }
+        }
+        ans.push_back({one,two});
+
+        return ans;
+    }
+};
+
+TC : O(n log n) // Because sorting dominates 
+SC : O(n)
+
+1. We first sort the intervals so overlapping ranges come next to each other.
+Then we keep track of a current interval using two variables.
+
+2. Take the first interval’s start as one
+Take the first interval’s end as two
+
+3. Check overlap with the next interval
+If the next interval’s start is less than or equal to two, they overlap → update two = max(two, next.end)
+
+4. If there is NO overlap
+Push the current interval {one, two} into the answer
+Reset one and two to the current interval
+
+6. Final push
+The last interval is never pushed inside the loop
+So after the loop, we push {one, two} manually
