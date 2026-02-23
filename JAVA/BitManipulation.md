@@ -144,4 +144,5 @@ Binary = 11001
 6. End
 
 
-![DecimalToBinary](DB.JPG) 
+![DecimalToBinary](DB.jpg) 
+
